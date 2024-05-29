@@ -16,3 +16,9 @@ try {
 } catch(err) {
     console.error(err);
 }
+
+
+let db = connection.db("sample_db"); // this is the database that I want to connect to
+// will need to return the reference specified for this database
+
+export default db; // exporting the database connection
